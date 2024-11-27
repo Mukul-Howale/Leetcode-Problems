@@ -1,4 +1,4 @@
-# Two Sum Problem
+# Two Sum
 
 ## Problem Description
 

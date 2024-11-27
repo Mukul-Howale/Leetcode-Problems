@@ -1,9 +1,10 @@
 package two_sum;
 
 import java.util.HashMap;
+import interfaces.ArrayInterface;
 
-public class TwoSum {
-    public int[] twoSum(int[] nums, int target){
+public class TwoSum implements ArrayInterface{
+    public int[] solve(int[] nums, int target){
         HashMap<Integer, Integer> storeDiff = new HashMap<>();
         for(int i=0; i<nums.length; i++){
             int diff = target - nums[i];
